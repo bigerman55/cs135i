@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Cody Fawcett" />
+	<meta name="description" content="Responsive example" />
+	<meta name="keywords" content="gaming, mlg, alpha, server, sale" />
+    <title>Responsive Alpha Server</title>
+	<link rel="stylesheet" type="text/css" href="small.css" media="screen and (max-width: 480px)"/>
+    <link rel="stylesheet" type="text/css" href="large.css" media="screen and (min-width: 480px)"/>
+	<link rel="stylesheet" type="text/css" href="all.css"/>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript" language="JavaScript">
+            function set_body_height()
+            {
+                var wh = $(window).height();
+                $('body').attr('style', 'height:' + wh + 'px;');
+            }
+            $(document).ready(function() {
+                set_body_height();
+                $(window).bind('resize', function() { set_body_height(); });
+            });
+        </script>
+    
+    
+  </head>
+  
+  <body>
+  <main class="wrapper">
+    <header class="row">
+		<article class="three column">
+			<img class="fit" src="images\logo2.png" alt="alpha_server">
+		</article>
+		<nav id="nav" class="fit nine column">
+			<ul>
+				<li><a href="index.htm">Home</a></li>
+				<li><a href="information.htm">Info</a></li>
+				<li><a href="contact.htm">Contact</a></li>
+				<li><a href="help.htm">Help</a></li>
+			</ul>
+		</nav>
+	
+    </header>
+	
+	
+	<section class="row">
+		<article class="twelve column">
+			<img id="advertise" class="center fit" src="images\mlg_logo.png" alt="mlg temp">
+		  </article>	
+	</section>
+	
+	<section class="row">
+	
+		<article id="special_sales" class="fit three column">
+		  <p class="wrapper"><h1>Special Sales</h1>
+			  <div class="row">
+				<div class="three column">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores</div>
+				<div class="three column">Et harum quidem rerum facilis est et expedita distinctio.</div>
+			  </div>
+			  
+			  <div class="row">
+				<div class="three column">Necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.</div>
+				<div class="three column">hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</div>
+			  </div>
+		  </p>
+		</article>
+		  
+		<article id="hot_deals" class="six column">
+			<h2>Hot Deals</h2>
+		  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+		</article>
+		
+		<article id="monthly_sales" class="fit three column">
+			<h3 id="monthly_sales">Monthly Sales</h3>
+				<div class="row">
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+				</div>
+		</article>
+		
+	</section>
+	
+	<section class="row">
+		<br />
+    	<h1 id= "simple" class=""><strong>Supporters - this will be blue in small screens</strong></h1>
+			<article id="img" class="sup fit half column">
+			  <img src="images\support1.png">
+			</article>
+			
+			<article id="img" class="sup fit half column">
+			  <img src="images\support4.png">
+			</article>
+			
+			<article id="img" class="sup fit half column">
+			  <img src="images\support3.png">
+			</article>
+			
+	</section>
+
+    <footer class="row">
+		<p class="twelve column">
+        	<div id="copyright">
+				<p class="six column">Terms & Conditions</p>
+            </div>
+            
+            <div id="social_media"><img src="socialmedia/facebook.png" alt="facebook" class="four column"><img src="socialmedia/twitter.png" alt="twitter" class="four column"><img src="socialmedia/YT.png" alt="youtube" class="four column"></div>
+		</p>
+	</footer>
+	
+  </main>
+  </body>
+</html>
+
+	
+	
+  
